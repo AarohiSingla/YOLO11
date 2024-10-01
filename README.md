@@ -1,11 +1,15 @@
-Envronment setup:
+## YOLO11:
 
-    	py -3.10 -m venv myvenv
+#### Video tutorial: https://youtu.be/B8v285BJ8Yk
+
+#### Envronment setup:
+
+	py -3.10 -m venv myvenv
 	
-      myvenv\Scripts\activate
+	myvenv\Scripts\activate
 	
 Ultralytics recommend to install pytorcg first from official website as per your cuda version. So they recommend to install the pytorch first.  https://pytorch.org/get-started/locally.
 
-    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+    	pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
     
   	pip install Ultralytics
